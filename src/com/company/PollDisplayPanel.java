@@ -140,7 +140,7 @@ public class PollDisplayPanel extends JPanel
     private int countToDegrees(int count, int total)
     {
 
-        return count/total;
+        return (count * 360)/total;
     }
 
 

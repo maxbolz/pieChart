@@ -11,11 +11,11 @@ public class Poll extends JFrame
 {
     public Poll()
     {
-        super("Vote for Tami, Brian, or Liz");
+        super("Vote for Trump, Biden, or Bolz");
 
         Container c = getContentPane();
         c.setBackground(Color.WHITE);
-        PollDisplayPanel chart = new PollDisplayPanel("Tami", "Brian", "Liz");
+        PollDisplayPanel chart = new PollDisplayPanel("Trump", "Biden", "Bolz");
         PollControlPanel controls = new PollControlPanel(chart);
         c.add(chart, BorderLayout.CENTER);
         c.add(controls, BorderLayout.SOUTH);
